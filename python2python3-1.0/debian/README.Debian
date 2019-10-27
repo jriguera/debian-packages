@@ -1,0 +1,9 @@
+python2python3 for Debian
+------------------------
+
+Simple package to provide python2 wrapper with python3
+This package allows installing packages depending on 'python'
+By default python is a transitional package pointing to Python2.
+This package provides 'pip' and 'python'.
+
+ -- Jose Riguera <jriguera@gmail.com>  Sat, 26 Oct 2019 23:35:09 +0200

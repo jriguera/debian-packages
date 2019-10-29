@@ -11,11 +11,9 @@ Architecture: all
 Section: misc
 Priority: optional
 Depends: python3, ${misc:Depends}
-(>= 1.2-3)
-
-Provides: python (= 2.7.100), python-minimal (= 2.7.100), python2 (= 2.7.100), python2-minimal (= 2.7.100), python2.7 (= 2.7.100), python2.7-minimal (= 2.7.100)
-Replaces: python (>= 2.7), python-minimal (>= 2.7), python2 (>= 2.7), python2-minimal (>= 2.7), python2.7 (>= 2.7), python2.7-minimal (>= 2.7)
-Conflicts: python (<< 2.7.100), python-minimal (<< 2.7.100), python2 (<< 2.7.100), python2-minimal (<< 2.7.100), python2.7 (<< 2.7.100), python2.7-minimal (<< 2.7.100)
+Provides: python (= 2.7.100)
+Replaces: python (>= 2.7), python-minimal (>= 2.7)
+Conflicts: python (<< 2.7.100), python-minimal (<< 2.7.100)
 Description: Simple package to provide python2 wrapper with python3
  This package allows installing packages depending on 'python'
  By default python is a transitional package pointing to Python2.
